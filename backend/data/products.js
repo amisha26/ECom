@@ -79,4 +79,5 @@ const products = [
   },
 ]
 
-module.exports = products
+//module.exports = products (we use this when ES5 modules are not being used)
+export default products
